@@ -12,7 +12,7 @@ select articles.title, count(*) as views from articles join log on articles.slug
 2. create view Q2 as 
 select authors.name, count(log.path) AS views FROM authors LEFT JOIN articles ON authors.id = articles.author LEFT JOIN log ON log.path LIKE CONCAT('%', articles.slug) GROUP BY authors.name ORDER BY views DESC"
 # Installation
-The database code to connect to @newsdata.sql is found in @newsdata.py. After forking and cloing the file, open your git command line and connect to the database news using ```psql -d news``` . After that run @ newsdata.py using the following code ```python newdata.py```
+The database code to connect to @newsdata.sql is found in @newsdata.py. After forking and cloning the file, open your git command line and connect to the database news using ```psql -d news``` . After that run @ newsdata.py using the following code ```python newdata.py```
 # Author
 Girum Hagos
 # More information
