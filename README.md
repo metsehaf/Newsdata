@@ -1,7 +1,7 @@
 # news
 An internal reporting tool that will use information from the database to discover what kind of articles the site's readers like. This is Log Analysis project by [Udacity](udacity.com) in which you will build out a reporting tool that summarize a large database using SQL.
 # Documentation
-Please refer to @ psycopg for more info on how the database adapter for the Python programming language was used. 
+Please refer to [psycopg](http://initd.org/psycopg/docs/) for more info on how the database adapter for the Python programming language was used. 
 ## create view
 
 Two views were created for question 1 and 2 and used in @ newsdata.py to shorten Sql code
