@@ -66,9 +66,8 @@ def get_error_percentage():
 
 # get the top 3 articles based on the amount of views
 
-    query = '''SELECT time::date AS date, (SELECT count(status)::float FROM log)
-     AS total , (Select count(status)::float FROM log WHERE status LIKE
-     '%404 %') AS error FROM log GROUP BY date ORDER BY date, total, error'''
+    query = "select * from percentage;"
+
     cursor.execute(query)
 
 # fetch the results
@@ -76,8 +75,7 @@ def get_error_percentage():
 
 # Loop through each title, count pairing and print out data for top 3
     for row in rows:
-        total = (row[2]/row[1]) * 100
-        print(row[0], total)
+        print("\nDay: {} \nstatus: {:^10}" .format(row[0], row[1]))
 # Runs the function to start the queries
 if __name__ == '__main__':
     Question_1()
