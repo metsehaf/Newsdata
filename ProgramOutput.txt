@@ -18,34 +18,124 @@ Views:   170098
 
 Author: Markoff Chaney
 Views:   84557
-(datetime.date(2016, 7, 1), 0.769370609780448)
-(datetime.date(2016, 7, 2), 0.769370609780448)
-(datetime.date(2016, 7, 3), 0.769370609780448)
-(datetime.date(2016, 7, 4), 0.769370609780448)
-(datetime.date(2016, 7, 5), 0.769370609780448)
-(datetime.date(2016, 7, 6), 0.769370609780448)
-(datetime.date(2016, 7, 7), 0.769370609780448)
-(datetime.date(2016, 7, 8), 0.769370609780448)
-(datetime.date(2016, 7, 9), 0.769370609780448)
-(datetime.date(2016, 7, 10), 0.769370609780448)
-(datetime.date(2016, 7, 11), 0.769370609780448)
-(datetime.date(2016, 7, 12), 0.769370609780448)
-(datetime.date(2016, 7, 13), 0.769370609780448)
-(datetime.date(2016, 7, 14), 0.769370609780448)
-(datetime.date(2016, 7, 15), 0.769370609780448)
-(datetime.date(2016, 7, 16), 0.769370609780448)
-(datetime.date(2016, 7, 17), 0.769370609780448)
-(datetime.date(2016, 7, 18), 0.769370609780448)
-(datetime.date(2016, 7, 19), 0.769370609780448)
-(datetime.date(2016, 7, 20), 0.769370609780448)
-(datetime.date(2016, 7, 21), 0.769370609780448)
-(datetime.date(2016, 7, 22), 0.769370609780448)
-(datetime.date(2016, 7, 23), 0.769370609780448)
-(datetime.date(2016, 7, 24), 0.769370609780448)
-(datetime.date(2016, 7, 25), 0.769370609780448)
-(datetime.date(2016, 7, 26), 0.769370609780448)
-(datetime.date(2016, 7, 27), 0.769370609780448)
-(datetime.date(2016, 7, 28), 0.769370609780448)
-(datetime.date(2016, 7, 29), 0.769370609780448)
-(datetime.date(2016, 7, 30), 0.769370609780448)
-(datetime.date(2016, 7, 31), 0.769370609780448)
+Traceback (most recent call last):
+  File "newsdata.py", line 83, in <module>
+    get_error_percentage()
+  File "newsdata.py", line 78, in get_error_percentage
+    print("\nDay: {} \nstatus: {:^10}" .format(result[0], result[1]))
+NameError: global name 'result' is not defined
+vagrant@vagrant:/vagrant$ python newsdata.py
+
+Article: Candidate is jerk, alleges rival
+Views:   338647
+
+Article: Bears love berries, alleges bear
+Views:   253801
+
+Article: Bad things gone, say good people
+Views:   170098
+
+Author: Ursula La Multa
+Views:   507594
+
+Author: Rudolf von Treppenwitz
+Views:   423457
+
+Author: Anonymous Contributor
+Views:   170098
+
+Author: Markoff Chaney
+Views:   84557
+
+Day: 2016-07-01
+status: 0.70791887353055160832
+
+Day: 2016-07-02
+status: 0.70471014492753623188
+
+Day: 2016-07-03
+status: 0.73087157802646447709
+
+Day: 2016-07-04
+status: 0.69212975611533067410
+
+Day: 2016-07-05
+status: 0.77493816982687551525
+
+Day: 2016-07-06
+status: 0.76678716179209113813
+
+Day: 2016-07-07
+status: 0.65765436609426379247
+
+Day: 2016-07-08
+status: 0.75884104277104059255
+
+Day: 2016-07-09
+status: 0.74226953436164820045
+
+Day: 2016-07-10
+status: 0.68087136853309842354
+
+Day: 2016-07-11
+status: 0.73949024716956896710
+
+Day: 2016-07-12
+status: 0.68017286967304290742
+
+Day: 2016-07-13
+status: 0.69409206234142805364
+
+Day: 2016-07-14
+status: 0.69389086165664178564
+
+Day: 2016-07-15
+status: 0.74233106509952330701
+
+Day: 2016-07-16
+status: 0.68626371609967338251
+
+Day: 2016-07-17
+status: 2.2626862468027260
+
+Day: 2016-07-18
+status: 0.67279497742359099822
+
+Day: 2016-07-19
+status: 0.78242171265427079381
+
+Day: 2016-07-20
+status: 0.70201807284124860238
+
+Day: 2016-07-21
+status: 0.75668434677141977879
+
+Day: 2016-07-22
+status: 0.73542730862587399920
+
+Day: 2016-07-23
+status: 0.67949138339344919299
+
+Day: 2016-07-24
+status: 0.78221415607985480944
+
+Day: 2016-07-25
+status: 0.71594675260469119074
+
+Day: 2016-07-26
+status: 0.72823568354849387620
+
+Day: 2016-07-27
+status: 0.67353043733597606856
+
+Day: 2016-07-28
+status: 0.71719254703724656459
+
+Day: 2016-07-29
+status: 0.69516478317046095612
+
+Day: 2016-07-30
+status: 0.72086140213897917310
+
+Day: 2016-07-31
+status: 0.71763551096084633003
